@@ -7,9 +7,9 @@ PARA EXECUTAR O PROGRAMA:
 - Uma vez dentro da pasta, é necessário criar um Virtual Environment (Ambiente Virtual), para isolar as modificações e instalações de Python/Django do projeto de outros arquivos e pastas do seu computador.
 - Para criar o ambiente virtual digite o seguinte comando:
 No Windows:
-
+```sh
 --> "python -m venv nome-do-ambiente-virtual"
-
+```
 No Linux e OS X
 
 --> "python3 -m venv nome-do-ambiente-virtual"
