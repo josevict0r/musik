@@ -1,4 +1,4 @@
-# μsik
+# μsik!
 
 PARA EXECUTAR O PROGRAMA:
 
