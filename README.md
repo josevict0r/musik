@@ -45,5 +45,7 @@ Agora é só ir no seu navegador e digitar:
 ```
 # Sobre o projeto
 
-  Para essa tarefa, optei por desenvolver um site que exibe uma lista de Cantores/Bandas em que ao clicar em um dos ícones, exibe uma tela com algumas músicas do respectivo artista e ao escolher uma das músicas, a letra da respectiva música é exibida. Um dos motivos para a escolha dessa temática, foi o fato de que as letras das músicas já estavam disponíveis facilmente na internet, o que facilitou a pesquisa e montagem do banco de dados do projeto. Ao todo, são 3 telas: a de artistas, a de músicas e a da letra da música.  
-  O projeto foi realizado com a utilização de Django4, um framework de Python para desenvolvimento web. Além disso, para o front-end foram utilizados HTML5 e CSS3, bem como, o framework Bootstrap.   
+   Para essa tarefa, optei por desenvolver um site que exibe uma lista de Cantores/Bandas em que ao clicar em um dos ícones, exibe uma tela com algumas músicas do respectivo artista e ao escolher uma das músicas, a letra da respectiva música é exibida. Um dos motivos para a escolha dessa temática, foi o fato de que as letras das músicas já estavam disponíveis facilmente na internet, o que facilitou a pesquisa e montagem do banco de dados do projeto. Ao todo, são 3 telas: a de artistas, a de músicas e a da letra da música.  
+O projeto foi realizado com a utilização de Django4, um framework de Python para desenvolvimento web. Além disso, para o front-end foram utilizados HTML5 e CSS3, bem como, o framework Bootstrap. 
+
+  
