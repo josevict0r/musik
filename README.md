@@ -1,4 +1,4 @@
-# musik
+# μsik
 
 PARA EXECUTAR O PROGRAMA:
 
