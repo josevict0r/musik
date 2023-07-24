@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{% url 'artistas' %}" id="breadcrumb">Artistas</a></li>
+        <li class="breadcrumb-item active" aria-current="page"><a href="{% url 'musicas' musica.artista.id %}" id="breadcrumb">{{ musica.artista }}</a></li>
+        </ol>
+    </nav>
+</div>
+<div id="teste">
+    <br>
+    <h1 id="titulo">{{ musica.titulo }}</h1>
+    <h5>{{ musica.artista }}</h5>
+    <br>
+    <div id="letra">{{ musica.letra|linebreaks }}</div>
+</div>
+<br>
+<center>
+<div class="btn-group" role="group" aria-label="Basic example">
+    <a href="{% url 'artistas' %}" type="button" class="btn btn-primary" id="botao_voltar">Voltar para Artistas</a>
+    <a href="{% url 'musicas' musica.artista.id %}" type="button" class="btn btn-primary" id="botao_voltar">Voltar para {{ musica.artista }}</a>
+</div>
+</center>
+
+{% endblock %}
