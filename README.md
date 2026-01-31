@@ -1,5 +1,7 @@
 # μsik!
 
+![Demonstração](./static/img/demo.gif)
+
 PARA EXECUTAR O PROGRAMA:
 
 - Primeiramente, é necessário ter o python instalado em seu computador
